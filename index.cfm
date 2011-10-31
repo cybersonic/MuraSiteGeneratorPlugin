@@ -39,7 +39,7 @@
 			if(!StructIsEmpty(node[item].children)){
 				createPages(node[item].children, bean.getContentID());
 			}
-		 	var OrderID++;	
+		 	OrderID++;	
 		}
 	}
 
